@@ -1,0 +1,19 @@
+.todo-list-stats {
+  @include flex-row;
+  justify-content: space-between;
+
+  padding: 2rem 2.5rem;
+  padding-bottom: 1.8rem;
+
+  border-radius: 0 0 0.5rem 0.5rem;
+
+  background-color: var(--color-bg-2);
+
+  &__items-left {
+    color: var(--color-text-2);
+  }
+
+  &__clear-completed {
+    color: var(--color-text-2);
+  }
+}

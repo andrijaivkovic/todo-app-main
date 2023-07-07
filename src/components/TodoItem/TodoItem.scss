@@ -1,0 +1,39 @@
+.todo-item {
+  display: grid;
+
+  grid-template-columns: min-content;
+
+  align-items: center;
+
+  background-color: var(--color-bg-2);
+
+  gap: 2rem;
+
+  width: 100%;
+
+  padding: 1.5rem 2.5rem;
+  padding-bottom: 1.7rem;
+
+  border-bottom: 1px solid var(--color-text-3);
+
+  &__description {
+    justify-self: start;
+
+    grid-row: 1;
+    transform: translateY(3px);
+  }
+
+  &__delete {
+    grid-row: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+
+    background-image: url("../../images/icon-cross.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translateY(2px);
+
+    justify-self: end;
+  }
+}

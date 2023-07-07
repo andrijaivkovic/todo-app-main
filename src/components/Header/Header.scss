@@ -1,0 +1,26 @@
+.header {
+  @include flex-row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 3rem;
+
+  width: 100%;
+
+  & > input {
+    display: none;
+  }
+
+  & > label {
+    height: 2rem;
+    width: 2rem;
+
+    margin-bottom: 1rem;
+
+    cursor: pointer;
+
+    // background-image: url("/images/icon-sun.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

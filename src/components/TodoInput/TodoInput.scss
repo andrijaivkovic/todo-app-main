@@ -1,0 +1,31 @@
+.todo-input {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+
+  align-items: center;
+  justify-content: start;
+
+  gap: 2rem;
+
+  padding: 1.5rem 2.5rem;
+  padding-bottom: 1.7rem;
+
+  margin-bottom: 2rem;
+
+  width: 100%;
+
+  background-color: var(--color-bg-2);
+
+  border-radius: 0.5rem;
+
+  &__input {
+    grid-row: 1;
+    min-width: 100%;
+  }
+
+  & input {
+    min-width: 100%;
+    // border: 1px solid red;
+    transform: translateY(3px);
+  }
+}

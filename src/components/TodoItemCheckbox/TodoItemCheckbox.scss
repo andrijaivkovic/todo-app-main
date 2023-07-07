@@ -1,0 +1,18 @@
+.todo-item-checkbox {
+  grid-row: 1;
+
+  & > label {
+    display: block;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border: 2px solid var(--color-text-3);
+    border-radius: 50%;
+  }
+
+  & input {
+    display: none;
+    // background-color: red;
+  }
+}

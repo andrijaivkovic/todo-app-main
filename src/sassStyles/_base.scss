@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 62.5%; // makes 1rem = 10px
+
+  @media only screen and (min-width: $breakpoint-desktop) {
+    font-size: 70%;
+  }
+}
+
+:root {
+  &.dark {
+    & > body {
+      background-image: url("../images/bg-desktop-dark.jpg");
+
+      @include mediaQuery(phone) {
+        background-image: url("../images/bg-mobile-dark.jpg");
+      }
+    }
+  }
+
+  &.light {
+    & > body {
+      background-image: url("../images/bg-desktop-light.jpg");
+
+      @include mediaQuery(phone) {
+        background-image: url("../images/bg-mobile-light.jpg");
+      }
+    }
+  }
+}
+
+body {
+  @include flex-column;
+  align-items: center;
+
+  padding: 5rem 4rem;
+
+  font-size: 1.2rem;
+  line-height: 1.6;
+
+  min-height: 100vh;
+
+  background-color: var(--color-bg-1);
+
+  padding-bottom: 6rem;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  // @include mediaQuery(phone) {
+  //   background-size: contain;
+  // }
+
+  // @include mediaQuery(desktop) {
+  //   padding: 0 15vw;
+  //   margin: unset;
+  // }
+
+  // transition: 0.5s ease;
+}
+
+input {
+  color: var(--color-text-1) !important;
+}
+
+main {
+  position: relative;
+  @include flex-column;
+  align-items: center;
+  width: 100%;
+}
+
+.instructions {
+  text-align: center;
+  color: var(--color-text-2);
+  font-size: 1.4rem;
+
+  margin-top: 4rem;
+}
+
+#root {
+  max-width: 60rem;
+  width: 100%;
+}
