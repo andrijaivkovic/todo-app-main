@@ -2,16 +2,16 @@
 
 :root {
   &.light {
-    --color-primary: hsl(220, 98%, 61%);
-    --color-gradient-1: hsl(192, 100%, 67%);
-    --color-gradient-2: hsl(280, 87%, 65%);
+    --color-primary: #3a7bfd;
+    --color-gradient-1: #57ddff;
+    --color-gradient-2: #bf59f2;
 
     --color-bg-1: hsl(0, 0%, 98%);
     --color-bg-2: hsl(0, 0%, 98%);
 
     --color-text-1: hsl(235, 19%, 35%);
     --color-text-2: hsl(236, 9%, 61%);
-    --color-text-3: hsl(233, 11%, 84%);
+    --color-text-3: #d2d3db;
   }
 
   &.dark {
@@ -22,9 +22,9 @@
     --color-bg-1: hsl(235, 21%, 11%);
     --color-bg-2: hsl(235, 24%, 19%);
 
-    --color-text-1: hsl(234, 39%, 85%);
+    --color-text-1: #cacde8;
     --color-text-2: hsl(234, 11%, 52%);
-    --color-text-3: hsl(237, 14%, 26%);
+    --color-text-3: #393a4c;
   }
 }
 

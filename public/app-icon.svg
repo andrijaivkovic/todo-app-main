@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #25273c;
+      }
+
+      .cls-2 {
+        fill: url(#New_Gradient_Swatch);
+        stroke: #cacde8;
+        stroke-miterlimit: 10;
+        stroke-width: 8.5px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 84.93px;
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch" data-name="New Gradient Swatch" x1="803.04" y1="803.04" x2="276.96" y2="276.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#57ddff"/>
+      <stop offset="0" stop-color="#5adaff"/>
+      <stop offset="1" stop-color="#bf59f2"/>
+    </linearGradient>
+  </defs>
+  <g id="bg">
+    <rect class="cls-1" width="1080" height="1080" rx="205.21" ry="205.21"/>
+  </g>
+  <g id="icon">
+    <circle class="cls-2" cx="540" cy="540" r="372"/>
+    <path class="cls-3" d="m354.88,535.69l114.48,114.48,254.78-254.78"/>
+  </g>
+</svg>
