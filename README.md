@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link](https://your-solution-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/todo-app-build-using-reactjs-reactbeautifuldnd-and-sass-Q9ocjtxLcM)
 - Live Site URL: [Link](https://todo-app-andrijai.netlify.app/)
 
 ## My process
@@ -51,7 +51,7 @@ Users should be able to:
 - Mobile-first workflow
 - Sass SCSS syntax
 - [React](https://reactjs.org/)
-- [React Beautiful DND](https://github.com/atlassian/react-beautiful-dnd)
+- [React-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
 
 ### What I learned
 
